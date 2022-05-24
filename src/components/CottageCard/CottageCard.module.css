@@ -1,0 +1,33 @@
+.cottage-card {
+  /* display: grid; */
+}
+
+.cottage-form {
+  /* display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem; */
+
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  font-size: 1.8rem;
+}
+
+.cottages-label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.content {
+  /* display: grid; */
+  gap: 1.4rem;
+  row-gap: 2rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cottage-price {
+  font-size: 1.8rem;
+}
